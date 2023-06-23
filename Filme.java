@@ -2,19 +2,19 @@ import java.util.List;
 
 class Filme {
     private String titulo;
-    private List<String> genero;
     private String diretor;
     private List<Pessoa> elenco;
-    private String dataDeLancamento;
+    private List<String> genero;
     private int duracao;
+    private String dataDeLancamento;
 
     public Filme(String titulo, List<String> genero, String diretor, List<Pessoa> elenco, String dataDeLancamento, int duracao) {
         this.titulo = titulo;
+        this.elenco = elenco;
         this.genero = genero;
         this.diretor = diretor;
-        this.elenco = elenco;
-        this.dataDeLancamento = dataDeLancamento;
         this.duracao = duracao;
+        this.dataDeLancamento = dataDeLancamento;
     }
 
     public String gettitulo() {

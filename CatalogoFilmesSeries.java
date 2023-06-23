@@ -2,12 +2,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 class CatalogoFilmesSeries {
-    private List<Filme> Filmes;
     private List<Series> series;
+    private List<Filme> Filmes;
 
     public CatalogoFilmesSeries() {
-        this.Filmes = new ArrayList<>();
         this.series = new ArrayList<>();
+        this.Filmes = new ArrayList<>();
     }
 
     public void addFilme(Filme Filme) {

@@ -3,13 +3,13 @@ import java.util.List;
 
 class Pessoa {
     private String name;
-    private String dataNascimento;
     private List<String> premios;
+    private String dataNascimento;
 
     public Pessoa(String name, String dataNascimento) {
         this.name = name;
-        this.dataNascimento = dataNascimento;
         this.premios = new ArrayList<>();
+        this.dataNascimento = dataNascimento;
     }
 
     public String getName() {
